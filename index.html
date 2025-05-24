@@ -7,7 +7,11 @@
   <style>
     body { display: flex; font-family: Arial, sans-serif; margin: 0; }
     header, footer { background-color: #333; color: white; text-align: center; padding: 1rem; }
-    nav { width: 250px; background-color: #f4f4f4; padding: 1rem; height: 100vh; overflow-y: auto; }
+    nav { width: 250px; background-color: #f4f4f4; padding: 1rem; height: 100vh; overflow-y: auto; box-sizing: border-box; position: relative; }
+    nav > div.wrapper {
+      min-height: 100%;
+      background-color: inherit;
+    }
     main { flex-grow: 1; padding: 1rem; }
     a { text-decoration: none; color: #333; }
     a:hover { text-decoration: underline; }
@@ -15,12 +19,14 @@
 </head>
 <body>
   <nav>
+    <div class="wrapper">
     <h2>Webサイト一覧</h2>
     <ul>
       <li><a href="https://example.com" target="_blank">Exampleサイト</a></li>
       <li><a href="https://another-site.com" target="_blank">Anotherサイト</a></li>
       <!-- 必要に応じてリンクを追加 -->
     </ul>
+    </div>
   </nav>
 
   <main>
@@ -77,39 +83,39 @@
       <!-- <p>ここにサイトの情報が表示されます。</p> -->
       <ul>
   <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 12:34</div>
+    <div style="font-size: 0.8em; color: gray;">5/24 12:44</div>
     <a href="https://news4vip.livedoor.biz/archives/52554442.html" target="_blank" style="color: blue; text-decoration: none;">【画像】にじさんじホロライブ「北海道で野球イベントやるぞ！！」→結果ｗｗｗ</a>
   </li>
   <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 12:34</div>
+    <div style="font-size: 0.8em; color: gray;">5/24 12:44</div>
     <a href="https://news4vip.livedoor.biz/archives/52554439.html" target="_blank" style="color: blue; text-decoration: none;">【画像】セブンさんがサンドイッチ1.5倍を試みた結果ｗｗｗｗｗ</a>
   </li>
   <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 12:34</div>
+    <div style="font-size: 0.8em; color: gray;">5/24 12:44</div>
     <a href="https://news4vip.livedoor.biz/archives/52554438.html" target="_blank" style="color: blue; text-decoration: none;">【悲報】トランプ「プーチンは停戦する気が無い。彼は戦争に勝利すると信じていて戦い続ける」</a>
   </li>
   <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 12:34</div>
+    <div style="font-size: 0.8em; color: gray;">5/24 12:44</div>
     <a href="https://news4vip.livedoor.biz/archives/52554435.html" target="_blank" style="color: blue; text-decoration: none;">ゆうちゃみ（176cm）「男性の身長は気にならない。私より低くても別にいい」</a>
   </li>
   <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 12:34</div>
+    <div style="font-size: 0.8em; color: gray;">5/24 12:44</div>
     <a href="https://news4vip.livedoor.biz/archives/52554402.html" target="_blank" style="color: blue; text-decoration: none;">ジョニーソマリ懲役31年ｗｗｗｗｗ</a>
   </li>
   <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 12:34</div>
+    <div style="font-size: 0.8em; color: gray;">5/24 12:44</div>
     <a href="https://news4vip.livedoor.biz/archives/52554400.html" target="_blank" style="color: blue; text-decoration: none;">【緊急】中居正広、ブチギレ「到底承服いたしかねる」</a>
   </li>
   <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 12:34</div>
+    <div style="font-size: 0.8em; color: gray;">5/24 12:44</div>
     <a href="https://news4vip.livedoor.biz/archives/52554401.html" target="_blank" style="color: blue; text-decoration: none;">【画像】中西学さん めっちゃ老ける‥‥</a>
   </li>
   <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 12:34</div>
+    <div style="font-size: 0.8em; color: gray;">5/24 12:44</div>
     <a href="https://news4vip.livedoor.biz/archives/52554399.html" target="_blank" style="color: blue; text-decoration: none;">文春、永野芽郁に実質敗北ｗｗｗｗｗ</a>
   </li>
   <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 12:34</div>
+    <div style="font-size: 0.8em; color: gray;">5/24 12:44</div>
     <a href="https://news4vip.livedoor.biz/archives/52554398.html" target="_blank" style="color: blue; text-decoration: none;">北九州監禁連続殺人のあの部屋に住む住人、強い・・・</a>
   </li>
 </ul>
@@ -205,6 +211,10 @@
       <!-- <p>ここにサイトの情報が表示されます。</p> -->
       <ul>
   <li>
+    <div style="font-size: 0.8em; color: gray;">5/24 21:41</div>
+    <a href="http://bipblog.com/archives/5904300.html" target="_blank" style="color: blue; text-decoration: none;">【画像】ビリーアイリッシュ、巨乳のクセして『性的な目で見るな』と言い出す</a>
+  </li>
+  <li>
     <div style="font-size: 0.8em; color: gray;">5/24 21:11</div>
     <a href="http://bipblog.com/archives/5904299.html" target="_blank" style="color: blue; text-decoration: none;">【画像】顔Lv.999なのにおっぱいがG以上ある天才女、見つかるwwwww</a>
   </li>
@@ -239,10 +249,6 @@
   <li>
     <div style="font-size: 0.8em; color: gray;">5/24 17:11</div>
     <a href="http://bipblog.com/archives/5904291.html" target="_blank" style="color: blue; text-decoration: none;">【悲報】小学生のカンチョー、完全に女性器に入ってしまう・・・</a>
-  </li>
-  <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 16:41</div>
-    <a href="http://bipblog.com/archives/5904290.html" target="_blank" style="color: blue; text-decoration: none;">【悲報】陽キャ、高所から海に飛び込む→四肢が意味不明な方向に折れ曲がって『こう』なる・・・</a>
   </li>
 </ul>
       <h2><a href="https://www.mudainodocument.com/" target="_blank">無題のドキュメント</a></h2>
@@ -413,6 +419,10 @@
       <!-- <p>ここにサイトの情報が表示されます。</p> -->
       <ul>
   <li>
+    <div style="font-size: 0.8em; color: gray;">5/24 21:39</div>
+    <a href="http://burusoku-vip.com/archives/2093164.html" target="_blank" style="color: blue; text-decoration: none;">【画像】女性、無意識に『パンツのサイズ』を全世界に発信するwwww</a>
+  </li>
+  <li>
     <div style="font-size: 0.8em; color: gray;">5/24 21:27</div>
     <a href="http://burusoku-vip.com/archives/2093324.html" target="_blank" style="color: blue; text-decoration: none;">【悲報】トッモ「マーベル映画面白い！」ワイ「じゃあDC映画も観に行こうや」トッモ「え、興味ないな〜」</a>
   </li>
@@ -447,10 +457,6 @@
   <li>
     <div style="font-size: 0.8em; color: gray;">5/24 18:39</div>
     <a href="http://burusoku-vip.com/archives/2093161.html" target="_blank" style="color: blue; text-decoration: none;">【画像】Switch2落選メールが届いた息子、『トンデモ行動』に出るwww</a>
-  </li>
-  <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 18:27</div>
-    <a href="http://burusoku-vip.com/archives/2093270.html" target="_blank" style="color: blue; text-decoration: none;">ワイ、貯金残高今残り108万円あるんだけどｗｗｗｗｗ</a>
   </li>
 </ul>
       <h2><a href="https://news.2chblog.jp/" target="_blank">【2ch】コピペ情報局</a></h2>
@@ -577,6 +583,10 @@
       <!-- <p>ここにサイトの情報が表示されます。</p> -->
       <ul>
   <li>
+    <div style="font-size: 0.8em; color: gray;">5/24 21:43</div>
+    <a href="http://matometanews.com/archives/2102864.html" target="_blank" style="color: blue; text-decoration: none;">【画像】美人女性さん、出前授業で園児に出張性教育&#128149;</a>
+  </li>
+  <li>
     <div style="font-size: 0.8em; color: gray;">5/24 20:54</div>
     <a href="http://matometanews.com/archives/2102862.html" target="_blank" style="color: blue; text-decoration: none;">お前らタイミーで働いた事ある？</a>
   </li>
@@ -611,10 +621,6 @@
   <li>
     <div style="font-size: 0.8em; color: gray;">5/24 13:33</div>
     <a href="http://matometanews.com/archives/2102844.html" target="_blank" style="color: blue; text-decoration: none;">ランねーちゃんが見た死体の数ワロタwww</a>
-  </li>
-  <li>
-    <div style="font-size: 0.8em; color: gray;">5/24 12:28</div>
-    <a href="http://matometanews.com/archives/2102843.html" target="_blank" style="color: blue; text-decoration: none;">全米鉄鋼労組、トランプ氏に日鉄のUSスチール買収阻止を要請</a>
   </li>
 </ul>
       <h2><a href="https://majikichi.com/" target="_blank">マジキチ速報</a></h2>
