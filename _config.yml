@@ -1,0 +1,27 @@
+title: "2ch/5chまとめサイトのまとめ｜ニュース・VIP・話題の情報まとめ"
+description: "気になるニュース・情報をサクッとまとめてチェックできる情報サイト。"
+url: "https://matomeinfo.github.io"
+baseurl: ""  # サブディレクトリでなければ空文字
+
+lang: "ja"
+timezone: "Asia/Tokyo"
+
+theme: minima  # GitHub Pages 公式テーマ（変更可）
+
+permalink: pretty  # URLを /page-name/ 形式にする（推奨）
+
+markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Google Analytics（必要に応じて）
+# google_analytics: G-XXXXXXXXXX
+
+# ビルドから除外するファイル
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
