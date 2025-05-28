@@ -5,6 +5,6 @@
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://matomeinfo.github.io</loc>
-  <lastmod>2025-05-28T22:40:01+09:00</lastmod>
+  <lastmod>2025-05-28T23:32:20+09:00</lastmod>
 </url>
 </urlset>
