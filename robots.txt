@@ -1,4 +1,4 @@
 User-agent: *
     Allow: /
-    Sitemap: https://matomeinfo.github.io/sitemap.xml.txt
+    Sitemap: https://matomeinfo.github.io/sitemap.xml
     
